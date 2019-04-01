@@ -1,3 +1,364 @@
-p {
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+@-webkit-keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fade-in {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@-o-keyframes fade-in {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+
+* {
+
     text-align: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+}
+
+.background {
+    background-color: rgb(248, 248, 248);
+    padding: 3vw;
+}
+
+.title {
+
+    color: rgb(49, 49, 49);
+    text-shadow: 65px;
+    font-size: 75px;
+    margin: 0vw;
+    border-top: 5vw;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.subtitle {
+    color: rgb(49, 49, 49);
+    font-size: 1vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.textsmaller {
+    font-size: 1.5vw;
+}
+
+.texthighlight {
+    color: orange;
+    font-style: italic;
+}
+
+.navigation {
+    width: 10%;
+    max-width: 1px;
+}
+
+.left {
+    width: auto;
+    height: auto;
+    float: left;
+    text-align: center;
+}
+
+.left img {
+    width: auto;
+    height: auto;
+}
+
+.right {
+    width: 50%;
+    border: 1px solid green;
+    height: 50%;
+    float: right;
+}
+
+.padding {
+    margin: 1vw;
+}
+
+.customwidth {
+    width: 50%;
+    height: 50%;
+}
+
+.centerfocus {
+    width: 50%;
+    height: 50%;
+}
+
+.size_allign {
+    width: auto;
+    height: 100px;
+}
+
+.imgresize {
+    width: 25%;
+    height: 25%;
+    margin: auto;
+    float: center;
+}
+
+.wifeo_pagemenu > a {
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.wifeo_pagemenu:hover > a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.wifeo_rubrique > a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.wifeo_rubrique:hover > a {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none
+}
+
+.wifeo_pagesousmenu > a {
+    color: #333333;
+    text-decoration: none
+}
+
+.wifeo_conteneur_menu {
+    border-spacing: 0px;
+}
+
+.wifeo_conteneur_menu {
+    height: auto;
+    width: 160px
+}
+
+
+.wifeo_pagemenu,
+.wifeo_rubrique {
+    background-color: lightgray;
+    width: 100%
+}
+
+.wifeo_conteneur_menu a {
+    text-decoration: none;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 5px;
+    height: 50px;
+    -webkit-transition: all 0.50s ease;
+    -moz-transition: all 0.50s ease;
+    -ms-transition: all 0.50s ease;
+    -o-transition: all 0.50s ease;
+    transition: all 0.50s ease;
+    width: 160px;
+    text-align: center
+}
+
+.wifeo_sousmenu {
+    max-height: 0;
+    width: 100%;
+    opacity: 0;
+    overflow: hidden;
+    margin-left: 0;
+    visibility: hidden
+}
+
+@media screen and (min-device-width:1024px) {
+    .wifeo_sousmenu {
+        -webkit-transition: all 0.50s ease;
+        -moz-transition: all 0.50s ease;
+        -ms-transition: all 0.50s ease;
+        -o-transition: all 0.50s ease;
+        transition: all 0.50s ease
+    }
+}
+
+.wifeo_pagesousmenu {
+    width: 100%;
+    display: table
+}
+
+.wifeo_sousmenu a {
+    text-align: left;
+    height: 50px;
+    background-color: #E7E7E7;
+    border-left: 2px solid #BFBFBF;
+    border-right: 2px solid #BFBFBF
+}
+
+.wifeo_sousmenu a:hover {
+    background-color: lightgray;
+}
+
+.wifeo_rubrique:hover .wifeo_sousmenu {
+    visibility: visible;
+    opacity: 1;
+    max-height: 15em;
+    display: table;
+}
+
+.myButton {
+    -moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
+    background: -moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+    background: -webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+    background: -o-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+    background: -ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+    background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6', GradientType=0);
+    background-color: #ffffff;
+    -moz-border-radius: 19px;
+    -webkit-border-radius: 19px;
+    border-radius: 19px;
+    border: 2px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    color: #666666;
+    font-family: 'Roboto', sans-serif font-size:45px;
+    font-weight: bold;
+    padding: 16px 54px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+}
+
+.myButton:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff));
+    background: -moz-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+    background: -webkit-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+    background: -o-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+    background: -ms-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+    background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff', GradientType=0);
+    background-color: #f6f6f6;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.textauto {
+    font-size: 35px;
+}
+
+.textbig {
+    font-size: 50px;
+    font-family: 'Merriweather', serif;
+}
+
+.divider {
+    height: 5px;
+    width: 100%;
+    display: block;
+    /* for use on default inline elements like span */
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: gray;
+}
+
+.fade-in {
+    -webkit-animation: fade-in 2s ease;
+    -moz-animation: fade-in ease-in-out 2s both;
+    -ms-animation: fade-in ease-in-out 2s both;
+    -o-animation: fade-in ease-in-out 2s both;
+    animation: fade-in 2s ease;
+    visibility: visible;
+    -webkit-backface-visibility: hidden;
+}
+.nointerfere {
+      position: absolute;
+}
+@media screen and (max-width: 1050px) {
+    .subtitle{
+        font-size: 5vw;
+    }
+    .textauto{
+        font-size: 5vw;
+    }
+    .imgresize {
+        visibility: hidden;
+}
+    .header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
 }
