@@ -362,3 +362,9 @@
   }
 }
 }
+.right {
+    position: absolute;
+    text-align: right;
+    float: right;
+}
+
