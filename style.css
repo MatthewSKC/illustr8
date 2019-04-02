@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
 
 @-webkit-keyframes fade-in {
     0% {
@@ -47,6 +48,7 @@
     text-align: center;
     margin: 0 auto;
     box-sizing: border-box;
+    z-index: 1;
 
 }
 
@@ -62,7 +64,8 @@
     font-size: 75px;
     margin: 0vw;
     border-top: 5vw;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Satisfy', cursive;
+
 
 }
 
@@ -101,7 +104,6 @@
 
 .right {
     width: 50%;
-    border: 1px solid green;
     height: 50%;
     float: right;
 }
@@ -142,7 +144,7 @@
     color: #FFFFFF;
     text-decoration: none;
     font-weight: bold;
-    
+
 }
 
 .wifeo_rubrique > a {
@@ -305,66 +307,117 @@
     visibility: visible;
     -webkit-backface-visibility: hidden;
 }
+
 .nointerfere {
-      position: absolute;
+    position: absolute;
 }
+
 @media screen and (max-width: 1050px) {
-    .subtitle{
+    .subtitle {
         font-size: 5vw;
     }
-    .textauto{
+
+    .textauto {
         font-size: 5vw;
     }
+
     .imgresize {
         visibility: hidden;
-}
+    }
+
     .header {
-  text-align: center;
-  padding: 32px;
+        text-align: center;
+        padding: 32px;
+    }
+
+    .row {
+        display: -ms-flexbox;
+        /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap;
+        /* IE10 */
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    /* Create four equal columns that sits next to each other */
+    .column {
+        -ms-flex: 25%;
+        /* IE10 */
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+    }
+
+    .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+    }
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+        .column {
+            -ms-flex: 50%;
+            flex: 50%;
+            max-width: 50%;
+        }
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+        .column {
+            -ms-flex: 100%;
+            flex: 100%;
+            max-width: 100%;
+        }
+    }
 }
 
-.row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-}
 .right {
     position: absolute;
     text-align: right;
     float: right;
 }
 
+.menu {
+    width: 100%;
+    background-color: rgb(248, 248, 248);
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    float: left;
+    text-decoration: none;
+    color: border-left:;
+    padding: 10.5px 11px;
+    background-color: rgb(248, 248, 248);
+}
+
+.menu ul li a:visited {
+    color: black;
+}
+
+.menu ul li a:hover,
+.menu ul li .current {
+    color: white;
+    background-color: black;
+}
+
+img {
+    z-index: 99;
+}
+
+.centre {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+}
