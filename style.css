@@ -129,112 +129,7 @@
 
 .imgresize {
     width: 25%;
-    height: 25%;
-    margin: auto;
-    float: center;
-}
-
-.wifeo_pagemenu > a {
-    color: #FFFFFF;
-    text-decoration: none;
-
-}
-
-.wifeo_pagemenu:hover > a {
-    color: #FFFFFF;
-    text-decoration: none;
-    font-weight: bold;
-
-}
-
-.wifeo_rubrique > a {
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
-.wifeo_rubrique:hover > a {
-    color: #FFFFFF;
-    font-weight: bold;
-    text-decoration: none
-}
-
-.wifeo_pagesousmenu > a {
-    color: #333333;
-    text-decoration: none
-}
-
-.wifeo_conteneur_menu {
-    border-spacing: 0px;
-}
-
-.wifeo_conteneur_menu {
-    height: auto;
-    width: 160px
-}
-
-
-.wifeo_pagemenu,
-.wifeo_rubrique {
-    background-color: lightgray;
-    width: 100%
-}
-
-.wifeo_conteneur_menu a {
-    text-decoration: none;
-    display: table-cell;
-    vertical-align: middle;
-    padding: 0 5px;
-    height: 50px;
-    -webkit-transition: all 0.50s ease;
-    -moz-transition: all 0.50s ease;
-    -ms-transition: all 0.50s ease;
-    -o-transition: all 0.50s ease;
-    transition: all 0.50s ease;
-    width: 160px;
-    text-align: center
-}
-
-.wifeo_sousmenu {
-    max-height: 0;
-    width: 100%;
-    opacity: 0;
-    overflow: hidden;
-    margin-left: 0;
-    visibility: hidden
-}
-
-@media screen and (min-device-width:1024px) {
-    .wifeo_sousmenu {
-        -webkit-transition: all 0.50s ease;
-        -moz-transition: all 0.50s ease;
-        -ms-transition: all 0.50s ease;
-        -o-transition: all 0.50s ease;
-        transition: all 0.50s ease
-    }
-}
-
-.wifeo_pagesousmenu {
-    width: 100%;
-    display: table
-}
-
-.wifeo_sousmenu a {
-    text-align: left;
-    height: 50px;
-    background-color: #E7E7E7;
-    border-left: 2px solid #BFBFBF;
-    border-right: 2px solid #BFBFBF
-}
-
-.wifeo_sousmenu a:hover {
-    background-color: lightgray;
-}
-
-.wifeo_rubrique:hover .wifeo_sousmenu {
-    visibility: visible;
-    opacity: 1;
-    max-height: 15em;
-    display: table;
+    height: 25
 }
 
 .myButton {
@@ -387,7 +282,7 @@
 .menu ul {
     margin: 0;
     padding: 0;
-    float: left;
+    float: right;
 }
 
 .menu ul li {
@@ -395,8 +290,9 @@
 }
 
 .menu ul li a {
-    float: left;
-    text-decoration: none;
+    float: right;
+    text-decoration: underline;
+    font-size: 1.05vw;
     color: border-left:;
     padding: 10.5px 11px;
     background-color: rgb(248, 248, 248);
