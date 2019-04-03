@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
 
 @-webkit-keyframes fade-in {
     0% {
@@ -128,7 +130,7 @@
 }
 
 .imgresize {
-    width: 25%;
+    width: 20%;
     height: 25
 }
 
@@ -218,6 +220,7 @@
 
     .imgresize {
         visibility: hidden;
+        width: 30%
     }
 
     .header {
@@ -316,4 +319,11 @@ img {
     position: absolute;
     text-align: center;
     margin: 0 auto;
+}
+.plisence {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.5w;
+}
+.condense {
+    margin: 3vw; 0vw;
 }
