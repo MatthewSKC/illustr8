@@ -73,13 +73,13 @@
 
 .subtitle {
     color: rgb(49, 49, 49);
-    font-size: 1vw;
+    font-size: 1.75vw;
     margin-top: 1vw;
     margin-bottom: 1vw;
 }
 
-.textsmaller {
-    font-size: 1.5vw;
+.autotextsize {
+    font-size: 1.75vw;
 }
 
 .texthighlight {
@@ -97,11 +97,6 @@
     height: auto;
     float: left;
     text-align: center;
-}
-
-.left img {
-    width: auto;
-    height: auto;
 }
 
 .right {
@@ -129,9 +124,6 @@
     height: 100px;
 }
 
-.imgresize {
-    width: 20%;
-    height: 25
 }
 
 .myButton {
@@ -190,11 +182,11 @@
     width: 100%;
     display: block;
     /* for use on default inline elements like span */
-    margin: 9px 0;
+    margin: 5px 0;
     overflow: hidden;
     background-color: gray;
 }
-
+    
 .fade-in {
     -webkit-animation: fade-in 2s ease;
     -moz-animation: fade-in ease-in-out 2s both;
@@ -326,4 +318,8 @@ img {
 }
 .condense {
     margin: 3vw; 0vw;
+}
+.autoimg {
+    width: 15%;
+    height: 15%;
 }
