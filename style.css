@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
-
+@import url('https://fonts.googleapis.com/css?family=Aldrich');
 
 @-webkit-keyframes fade-in {
     0% {
@@ -186,7 +185,7 @@
     overflow: hidden;
     background-color: gray;
 }
-    
+
 .fade-in {
     -webkit-animation: fade-in 2s ease;
     -moz-animation: fade-in ease-in-out 2s both;
@@ -312,13 +311,17 @@ img {
     text-align: center;
     margin: 0 auto;
 }
+
 .plisence {
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Aldrich', sans-serif;
     font-size: 0.5w;
 }
+
 .condense {
-    margin: 3vw; 0vw;
+    margin: 3vw;
+    0vw;
 }
+
 .autoimg {
     width: 15%;
     height: 15%;
