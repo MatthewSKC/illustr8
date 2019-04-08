@@ -61,8 +61,7 @@
 .title {
 
     color: rgb(49, 49, 49);
-    text-shadow: 65px;
-    font-size: 60px;
+    font-size: 5vw;
     margin: 0vw;
     border-top: 5vw;
     font-family: 'Satisfy', cursive;
@@ -77,7 +76,7 @@
 }
 
 .autotextsize {
-    font-size: 1.75vw;
+    font-size: 1.5vw;
 }
 
 .texthighlight {
@@ -168,7 +167,7 @@
 
 
 .textbig {
-    font-size: 50px;
+    font-size: 2vw;
     font-family: 'Merriweather', serif;
 }
 
@@ -292,7 +291,7 @@ footer {
 .menu ul li a {
     float: right;
     text-decoration: underline;
-    font-size: 2vw;
+    font-size: 1.5vw;
     color: border-left:;
     padding: 10.5px 11px;
     background-color: rgb(248, 248, 248);
