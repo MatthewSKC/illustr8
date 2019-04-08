@@ -71,12 +71,12 @@
 
 .subtitle {
     color: rgb(49, 49, 49);
-    font-size: 1vw;
+    font-size: 3vw;
     margin-bottom: 1vw;
 }
 
 .autotextsize {
-    font-size: 1.5vw;
+    font-size: 2vw;
 }
 
 .texthighlight {
@@ -167,7 +167,7 @@
 
 
 .textbig {
-    font-size: 2vw;
+    font-size: 5vw;
     font-family: 'Merriweather', serif;
 }
 
@@ -179,6 +179,10 @@
     margin: 5px 0;
     overflow: hidden;
     background-color: gray;
+}
+
+.textauto {
+    font-size: 1.5vw;
 }
 
 .fade-in {
@@ -196,10 +200,6 @@
 }
 
 footer {
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
     background-color: rgb(241, 241, 241);
     text-align: center;
 }
@@ -212,16 +212,12 @@ footer {
     }
 
     .textauto {
-        font-size: 5vw;
-    }
-
-    .imgresize {
-        width: 100vw;
+        font-size: 3vw;
     }
 
     .header {
         text-align: center;
-        padding: 32px;
+        padding: 3vw;
     }
 
     .row {
@@ -291,7 +287,7 @@ footer {
 .menu ul li a {
     float: right;
     text-decoration: underline;
-    font-size: 1.5vw;
+    font-size: 2vw;
     color: border-left:;
     padding: 10.5px 11px;
     background-color: rgb(248, 248, 248);
@@ -341,4 +337,8 @@ img {
         width: 10vw;
         height: 10vw;
     }
+}
+
+.container {
+    background-color: rgb(248, 248, 248);
 }
