@@ -260,6 +260,9 @@ footer {
             flex: 100%;
             max-width: 100%;
         }
+        .menu{
+            font-size: 2vw
+        }
     }
 }
 
@@ -287,7 +290,7 @@ footer {
 .menu ul li a {
     float: right;
     text-decoration: underline;
-    font-size: 2vw;
+    font-size: 1vw;
     color: border-left:;
     padding: 10.5px 11px;
     background-color: rgb(248, 248, 248);
@@ -319,7 +322,7 @@ img {
 }
 
 .condense {
-    margin: 3vw;
+    margin: 2vw;
     0vw;
 }
 
