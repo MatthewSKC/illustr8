@@ -65,6 +65,9 @@
     margin: 0vw;
     border-top: 5vw;
     font-family: 'Satisfy', cursive;
+    align-content: center;
+    text-align: center;
+    position: static;
 
 
 }
