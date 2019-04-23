@@ -83,7 +83,7 @@
 }
 
 .texthighlight {
-    color: orange;
+    color: rgb(255, 153, 51);
     font-style: italic;
 }
 
@@ -302,7 +302,9 @@ footer {
 .menu ul li a:visited {
     color: black;
 }
-
+.menu ul li a:link {
+    color: black;
+}
 .menu ul li a:hover,
 .menu ul li .current {
     color: white;
@@ -330,8 +332,8 @@ img {
 }
 
 .autoimg {
-    width: 10vw;
-    height: 10vw;
+    width: 15vw;
+    height: 15vw;
 }
 
 @media screen and (min-width: 0px) {
@@ -347,4 +349,7 @@ img {
 
 .container {
     background-color: rgb(248, 248, 248);
+}
+.gap {
+    height: 5vw;
 }
