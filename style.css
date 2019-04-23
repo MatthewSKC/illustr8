@@ -74,7 +74,7 @@
 
 .subtitle {
     color: rgb(49, 49, 49);
-    font-size: 3vw;
+    font-size: 2vw;
     margin-bottom: 1vw;
 }
 
@@ -170,7 +170,7 @@
 
 
 .textbig {
-    font-size: 3.75vw;
+    font-size: 2.5vw;
     font-family: 'Merriweather', serif;
 }
 
@@ -352,4 +352,9 @@ img {
 }
 .gap {
     height: 5vw;
+}
+@media screen and (max-width: 375) {
+    .gap {
+        height: 10vw;
+    }
 }
