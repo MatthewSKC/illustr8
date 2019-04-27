@@ -68,13 +68,13 @@
 
     color: rgb(49, 49, 49);
     font-size: 5vw;
+    text-shadow: 1px 1px 2px black;
     margin: 0vw;
     border-top: 5vw;
     font-family: 'Satisfy', cursive;
     align-content: center;
     text-align: center;
     position: static;
-
 
 }
 
@@ -85,9 +85,8 @@
 }
 
 .autotextsize {
-    font-size: 2vw;
+    font-size: 2.5vw;
 }
-
 .texthighlight {
     color: rgb(50, 63, 251);
     font-style: italic;
