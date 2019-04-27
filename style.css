@@ -58,6 +58,7 @@
     width: 85%;
     padding: 5vw;
 }
+
 .background {
     background-color: rgb(248, 248, 248);
     padding: 5vw;
@@ -88,7 +89,7 @@
 }
 
 .texthighlight {
-    color: rgb(255, 153, 51);
+    color: rgb(50, 63, 251);
     font-style: italic;
 }
 
@@ -207,12 +208,6 @@
     position: absolute;
 }
 
-footer {
-    background-color: rgb(241, 241, 241);
-    text-align: center;
-}
-
-
 
 @media screen and (max-width: 1050px) {
     .subtitle {
@@ -268,7 +263,8 @@ footer {
             flex: 100%;
             max-width: 100%;
         }
-        .menu{
+
+        .menu {
             font-size: 3vw
         }
     }
@@ -281,7 +277,7 @@ footer {
 }
 
 .menu {
-    width: 5    vw;
+    width: 5 vw;
     background-color: rgb(248, 248, 248);
 }
 
@@ -307,9 +303,11 @@ footer {
 .menu ul li a:visited {
     color: black;
 }
+
 .menu ul li a:link {
     color: black;
 }
+
 .menu ul li a:hover,
 .menu ul li .current {
     color: white;
@@ -355,9 +353,11 @@ img {
 .container {
     background-color: rgb(248, 248, 248);
 }
+
 .gap {
     height: 5vw;
 }
+
 .lilgap {
     height: 2vw;
 }
