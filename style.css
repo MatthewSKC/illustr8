@@ -1,7 +1,13 @@
+/* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
 @import url('https://fonts.googleapis.com/css?family=Aldrich');
+/* 
+Webkit - Chrome
+Moz = Firerox
+O = Oprea
+*/
 
 @-webkit-keyframes fade-in {
     0% {
@@ -43,6 +49,7 @@
     }
 }
 
+/* Assigned to EVERYTHING */
 
 * {
 
