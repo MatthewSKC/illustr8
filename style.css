@@ -68,7 +68,7 @@
 
     color: rgb(49, 49, 49);
     font-size: 5vw;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 0.5px 0.5px 1px rgb(49, 49, 49);
     margin: 0vw;
     border-top: 5vw;
     font-family: 'Satisfy', cursive;
